@@ -1,0 +1,102 @@
+body {
+    background-color: #FF3399;
+    font-family: 'Arvo', serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+div, body, html, p, h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.container {
+    width: 70%;
+    margin-left: 60px;
+}
+
+.row {
+    width: 100%;
+}
+
+.column {
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
+
+.left.column {
+    width: 40%;
+}
+
+.right.column {
+    width: 60%;
+}
+
+.creature, .conversation {
+    position: relative;
+}
+
+.conversation {
+    min-height: 45px;
+}
+
+.face {
+    position: relative;
+    min-height: 100px;
+    margin-top: 40px;
+}
+
+.eye {
+    position: absolute;
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.left.eye {
+    right: 75px;
+}
+
+.right.eye {
+    right: 10px;
+}
+
+.mouth {
+    position: absolute;
+    right: 5px;
+    bottom: 25px;
+    background-color: #000;
+    clear: both;
+    width: 130px;
+    height: 10px;
+}
+
+.speech-bubble {
+    background-color: #FFF;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.speech-bubble:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 18px;
+    bottom: -29px;
+    border: 15px solid;
+    border-color: #fff transparent transparent #fff;
+}
