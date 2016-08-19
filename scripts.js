@@ -13,7 +13,11 @@ var messages = [
     "I had a boyfriend that was a DJ, but then I got Spotify premium.",
     "I like my men how I like my coffee. Silent.",
     "Take as many selfies as you want, still doesn't make up for personality.",
-    "Keep working hard girl, cuz we know that face isn't doing u any favors!!"
+    "Keep working hard girl, cuz we know that face isn't doing u any favors!!",
+    "He don’t want you. He. don’t. want. you.",
+    "Is your middle name QuickTrip? Cause you quick to start trippin’.",
+    "Get out my face.",
+    "I saw you eat that hot pocket."
 ];
 
 $(document).ready(function() {
